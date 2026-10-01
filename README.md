@@ -56,8 +56,9 @@ flowchart LR
 | Project | What it does | Stack |
 |---|---|---|
 | [**Streaming Lakehouse**](https://github.com/aaditya2504/streaming-lakehouse) | Low-latency CDC lakehouse across 6 services, with a 3-layer medallion architecture managed in dbt for auditable, reproducible transformations | `Postgres` `Debezium` `Kafka` `Spark` `Iceberg` `Trino` `dbt` |
+| [**Mental Health Social Determinants**](https://github.com/aaditya2504/brfss-mental-health-analysis) | Survey-weighted analysis of 200K+ BRFSS 2024 respondents across 33 states. Found loneliness is the strongest modifiable predictor of poor mental health days | `R` `survey` `R Markdown` |
+
 | **Restaurant Analytics Platform** | Normalized MySQL database on Aiven Cloud with ACID transactions and concurrency testing, daily Airflow batch ETL, and a 5-table star-schema warehouse with OLAP queries | `MySQL` `Python` `Airflow` `R` |
-| **Mental Health Social Determinants** | ML pipeline on the CDC BRFSS dataset (400K+ records, 15+ determinants), benchmarking 3 models | `Python` `scikit-learn` `XGBoost` |
 | **Job Discovery Automation** | Scores job listings against a resume with the Claude API, with hard filters and dedup. Workday portal watcher pushes alerts via ntfy.sh | `Python` `Claude API` |
 
 ### Experience
